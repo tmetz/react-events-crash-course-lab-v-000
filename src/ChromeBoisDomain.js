@@ -26,10 +26,10 @@ export default class ChromeBoisDomain extends Component {
    */
 
    handleKeyPress = event => {
-    if (event.key == 'a') {
+    if (event.key === 'a') {
       this.resize('+');
     }
-    if (event.key == 's') {
+    if (event.key === 's') {
       this.resize('-')
     }
   };
